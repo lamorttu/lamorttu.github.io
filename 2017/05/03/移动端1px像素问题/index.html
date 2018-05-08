@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>wahaha wahaha | Lamorttu&#39;s blog</title>
+  <title>1px 像素问题 | Lamorttu&#39;s blog</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -177,14 +177,11 @@
       </time>
     
 </span>
-                <h1>wahaha wahaha</h1>
+                <h1>1px 像素问题</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-      		<p>/**</p>
-<ul>
-<li>1px 像素问题(受制于移动端devicePixelRatio属性影响，建议用background-image实现)<br>*/<br>.bgColor{<br>background-image:-webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);<br>background-image:linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);<br>background-size: 120% 1px;<br>background-repeat: no-repeat;<br>}<br>.t1px{<br>&amp;:extend(.bgColor);<br>background-position: top left;<br>}<br>.b1px{<br>&amp;:extend(.bgColor);<br>background-position: bottom left;<br>}</li>
-</ul>
+      		<p>.bgColor{<br>  background-image:-webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);<br>  background-image:linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);<br>  background-size: 120% 1px;<br>  background-repeat: no-repeat;<br>}<br>.t1px{<br>  &amp;:extend(.bgColor);<br>  background-position: top left;<br>}<br>.b1px{<br>  &amp;:extend(.bgColor);<br>  background-position: bottom left;<br>}</p>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
